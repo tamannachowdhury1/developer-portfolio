@@ -11,14 +11,16 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
 
 .width {
     width: 50%;
-    padding-left: 2%;
+    padding-left: 2.5%;
+
+
 }
 
 .width img {
@@ -43,5 +45,5 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    padding-bottom: 250px;
+    background-position-y: bottom;
 }
